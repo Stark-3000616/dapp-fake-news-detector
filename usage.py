@@ -27,11 +27,11 @@ try:
     for i in range(1,num_of_voters+1):
         voter=None
         if i<=num_of_trustyvoters:
-            voter=Voter(i, 'trusted', 0.9, 50)
+            voter=Voter(i, 'trusted', 50)
         elif i<=num_of_trustyvoters+num_of_maliciousvoters:
-            voter=Voter(i,'malicious',0.0, 50)
+            voter=Voter(i,'malicious', 50)
         else:
-            voter=Voter(i,'honest', 0.7, 50)
+            voter=Voter(i,'honest', 50)
         voters.append(voter)
     
     random.shuffle(voters)

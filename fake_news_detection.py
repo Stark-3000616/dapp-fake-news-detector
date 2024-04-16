@@ -1,9 +1,9 @@
 import random
 class Voter:
-    def __init__(self, id, identity, trust, balance):
+    def __init__(self, id, identity, balance):
         self.id=id
         self.identity=identity
-        self.rating = trust
+        self.rating = 0.5
         self.balance = balance
         self.correct_votes=0
         self.total_votes=0
