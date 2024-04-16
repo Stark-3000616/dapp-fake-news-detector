@@ -19,8 +19,11 @@ def main():
 
         accuracies = []
         for malicious_pct in malicious_pct_values:
-            accuracy = run_simulation(num_of_voters, trustworthy_pct, malicious_pct, num_of_news_items)
-            accuracies.append(accuracy)
+            accuracy=0
+            for i in range(10):
+                accuracy+= run_simulation(num_of_voters, trustworthy_pct, malicious_pct, num_of_news_items)
+
+            accuracies.append(accuracy/10)
 
         # Visualize the data
         plt.plot(malicious_pct_values, accuracies, marker='o', label=f'Trusted voters= {trustworthy_pct}%')
