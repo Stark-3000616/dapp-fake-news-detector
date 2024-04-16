@@ -1,6 +1,5 @@
-
-# Design of DApp and Simulation - Fake news Detection
-### This is an assignment for CS765 course (Introduction to Blockchain) in CSE, IIT Bombay
+# Design and Simulation of DApp - Fake news Detection
+#### This is an assignment for CS765 course (Introduction to Blockchains) in CSE, IIT Bombay
 
 ## Overview
 
@@ -9,7 +8,6 @@ This is a design of a decentralised application (DApp) for fake news detection i
 ## Requirements
 
 - Python 3.x
-- 
 
 ## Usage
 
@@ -22,10 +20,11 @@ The python script generates a simulation of fake news detection by creating vote
 ## Parameters
 
 - `numofvoters`: Total number of voters in the simulation.
-- `trustworthy_voter_%`: Percentage of voters considered trustworthy.
-- `malicious_voter%`: Percentage of voters considered malicious.
-- `num_of_news_items`: Number of news items to be generated for the simulation.
+- `trustworthy_voter_%`: Percentage of voters considered trustworthy. They are considered to vote with 90% accuracy.
+- `malicious_voter%`: Percentage of voters considered malicious. They are considered to vote with 70% accuracy.
+- `num_of_news_items`: Number of news items to be generated for the simulation. The are considered to always vote wrong. 
 
-## License
+## Contributors
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Sayantan Biswas
+- Shamik Kumar De
