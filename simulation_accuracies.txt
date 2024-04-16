@@ -1,0 +1,9 @@
+Malicious Voters %: 0, Accuracy: 1.0
+Malicious Voters %: 10, Accuracy: 1.0
+Malicious Voters %: 20, Accuracy: 0.99
+Malicious Voters %: 30, Accuracy: 1.0
+Malicious Voters %: 40, Accuracy: 0.88
+Malicious Voters %: 50, Accuracy: 0.02
+Malicious Voters %: 60, Accuracy: 0.0
+Malicious Voters %: 70, Accuracy: 0.0
+Malicious Voters %: 80, Accuracy: 0.0

@@ -17,7 +17,7 @@ try:
         q=int(sys.argv[3])
         num_of_news_items=int(sys.argv[4])
     else:
-        print(f'Usage: python3 {sys.argv[0]} <numofvoters> <trustworthy_voter_%> <malicious_voter%>')
+        print(f'Usage: python3 {sys.argv[0]} <numofvoters> <trustworthy_voter_%> <malicious_voter%> <num_of_news_items>')
         sys.exit(1)
 
     num_of_trustyvoters=int(p*num_of_voters/100)
